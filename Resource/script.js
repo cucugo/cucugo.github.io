@@ -99,4 +99,4 @@ window.addEventListener('resize',function(){
   c.height = window.innerHeight;
 },false);
 
-console.log('Coded With ❤ Always, @tmrDevelops');
+console.log('Coded With ❤ Always, @CuCuGo Love DUHUAN');
