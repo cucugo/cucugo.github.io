@@ -22,7 +22,7 @@ function heart() {
       love.everyone = function() {
         unitet = unitat = love.doesNotDishonor;
         unité = love.thyNeighborx;
-        unità = love.thyNeighbory;
+        unità = love.thyNeighbory - 200;
         $.fillStyle = 'hsla( '+ love.isColorful +', 90%, 65%, 1)';
         $.beginPath();
         $.moveTo(unité + 0.5 * unitat, unità + 0.3 * unitet);
@@ -76,7 +76,7 @@ function randomKindness(r) {
 
 $.fillStyle = "hsla(0,0%,0%,1)";
 $.font = "Bold 12em sans-serif";
-var t = "LOVE".split("").join(String.fromCharCode(0x2006));
+var t = "我爱你".split("").join(String.fromCharCode(0x2006));
 $.fillText(t, (c.width - $.measureText(t).width) * 0.5, c.height * 0.5);
 
 world = [];
@@ -84,7 +84,7 @@ diversity = $.getImageData(0, 0, c.width, c.height);
 we = diversity.data; riseUp = 0;
 
 for (humans = 0; humans < we.length; humans += 4)
-  0 == we[humans] && (riseUp++, 0 == riseUp % 20 && 
+  0 == we[humans] && (riseUp++, 0 == riseUp % 10 && 
  ((amour = new heart()), amour.everyone(), world.push(amour)));
 
 function hope(){
@@ -99,4 +99,4 @@ window.addEventListener('resize',function(){
   c.height = window.innerHeight;
 },false);
 
-console.log('Coded With ❤ Always, @CuCuGo Love DUHUAN');
+console.log('Coded With ❤ Always, @tmrDevelops');
